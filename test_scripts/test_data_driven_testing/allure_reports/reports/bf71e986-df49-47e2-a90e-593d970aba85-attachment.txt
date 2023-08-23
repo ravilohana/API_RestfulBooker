@@ -1,0 +1,18 @@
+Total number of objects:  8
+Item# 0 added  ->  {"firstname": "Melisse", "lastname": "Jurczik", "totalprice": 8707, "depositpaid": true, "bookingdates": {"checkin": "2023-01-16", "checkout": "2023-10-07"}, "additionalneeds": "breakfast"}
+Item# 1 added  ->  {"firstname": "Glyn", "lastname": "Kidder", "totalprice": 2566, "depositpaid": false, "bookingdates": {"checkin": "2023-03-20", "checkout": "2023-08-28"}, "additionalneeds": "lunch"}
+Item# 2 added  ->  {"firstname": "Vinny", "lastname": "Wohler", "totalprice": 1182, "depositpaid": true, "bookingdates": {"checkin": "2023-05-20", "checkout": "2023-08-16"}, "additionalneeds": "dinner"}
+Item# 3 added  ->  {"firstname": "Korella", "lastname": "Strangwood", "totalprice": 8168, "depositpaid": false, "bookingdates": {"checkin": "2023-02-28", "checkout": "2023-08-31"}, "additionalneeds": "dinner"}
+Item# 4 added  ->  {"firstname": "Lane", "lastname": "Burkett", "totalprice": 3640, "depositpaid": true, "bookingdates": {"checkin": "2023-02-21", "checkout": "2023-08-16"}, "additionalneeds": "breakfast"}
+Item# 5 added  ->  {"firstname": "Sallyann", "lastname": "Lenton", "totalprice": 8679, "depositpaid": true, "bookingdates": {"checkin": "2023-03-06", "checkout": "2023-11-20"}, "additionalneeds": "breakfast"}
+Item# 6 added  ->  {"firstname": "Barbee", "lastname": "Mourge", "totalprice": 7127, "depositpaid": true, "bookingdates": {"checkin": "2023-01-07", "checkout": "2023-11-16"}, "additionalneeds": "breakfast"}
+Item# 7 added  ->  {"firstname": "Jay", "lastname": "Oakwell", "totalprice": 4336, "depositpaid": true, "bookingdates": {"checkin": "2023-03-14", "checkout": "2023-08-23"}, "additionalneeds": "breakfast"}
+200
+{'booking': {'additionalneeds': 'breakfast',
+             'bookingdates': {'checkin': '2023-03-14',
+                              'checkout': '2023-08-23'},
+             'depositpaid': True,
+             'firstname': 'Jay',
+             'lastname': 'Oakwell',
+             'totalprice': 4336},
+ 'bookingid': 1282}

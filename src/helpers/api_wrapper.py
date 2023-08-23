@@ -1,9 +1,8 @@
 import json
 
 import requests
-import pytest
 
-from src.constants.api_constants import url_create_token
+from src.constants.api_constants import url_create_token, url_create_booking
 from src.helpers.payload_manager import payload_create_token
 from src.helpers.utils import common_headers
 
@@ -51,6 +50,17 @@ def delete_data(url, auth, headers, in_json):
 
 def create_token_response():
     create_token_res = post_request(url=url_create_token(), headers=common_headers(), auth=None,
-                                         payload=payload_create_token(), in_json=False)
+                                    payload=payload_create_token(), in_json=False)
     token_val = create_token_res.json()["token"]
     return token_val
+
+# Not working
+# def create_booking_ddt(json_file_path):
+#     with open(json_file_path, 'r') as create_booking_payload:
+#         data = json.load(create_booking_payload)
+#         print("Total number of objects: ", len(data))
+#         for i in range(len(data)):
+#             data_new = json.dumps(data[i])
+#             response = requests.post(url_create_booking(), headers=common_headers(), data=data_new)
+#             print("Item#", i, "added", " -> ", data_new)
+#             return response

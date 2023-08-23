@@ -253,9 +253,9 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>HTMLReport_DDT.html</h1>
-    <p>Report generated on 01-Aug-2023 at 22:04:32 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
+    <p>Report generated on 02-Aug-2023 at 13:43:28 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.2.0</p>
     <h2>Summary</h2>
-    <p>1 tests ran in 62.05 seconds. </p>
+    <p>1 tests ran in 8.40 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -271,8 +271,89 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <tr>
           <td class="col-result">Passed</td>
           <td class="col-name">test_create_booking_DDT.py::Test_Create_Booking_DDT::test_create_booking_ddt</td>
-          <td class="col-duration">0.05</td>
+          <td class="col-duration">8.16</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log"> ------------------------------Captured stdout call------------------------------ <br/>Total number of objects:  8
+Item# 0 added  -&gt;  {&quot;firstname&quot;: &quot;Melisse&quot;, &quot;lastname&quot;: &quot;Jurczik&quot;, &quot;totalprice&quot;: 8707, &quot;depositpaid&quot;: true, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-01-16&quot;, &quot;checkout&quot;: &quot;2023-10-07&quot;}, &quot;additionalneeds&quot;: &quot;breakfast&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;breakfast&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-01-16&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-10-07&#x27;},
+             &#x27;depositpaid&#x27;: True,
+             &#x27;firstname&#x27;: &#x27;Melisse&#x27;,
+             &#x27;lastname&#x27;: &#x27;Jurczik&#x27;,
+             &#x27;totalprice&#x27;: 8707},
+ &#x27;bookingid&#x27;: 1554}
+Item# 1 added  -&gt;  {&quot;firstname&quot;: &quot;Glyn&quot;, &quot;lastname&quot;: &quot;Kidder&quot;, &quot;totalprice&quot;: 2566, &quot;depositpaid&quot;: false, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-03-20&quot;, &quot;checkout&quot;: &quot;2023-08-28&quot;}, &quot;additionalneeds&quot;: &quot;lunch&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;lunch&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-03-20&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-08-28&#x27;},
+             &#x27;depositpaid&#x27;: False,
+             &#x27;firstname&#x27;: &#x27;Glyn&#x27;,
+             &#x27;lastname&#x27;: &#x27;Kidder&#x27;,
+             &#x27;totalprice&#x27;: 2566},
+ &#x27;bookingid&#x27;: 1561}
+Item# 2 added  -&gt;  {&quot;firstname&quot;: &quot;Vinny&quot;, &quot;lastname&quot;: &quot;Wohler&quot;, &quot;totalprice&quot;: 1182, &quot;depositpaid&quot;: true, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-05-20&quot;, &quot;checkout&quot;: &quot;2023-08-16&quot;}, &quot;additionalneeds&quot;: &quot;dinner&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;dinner&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-05-20&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-08-16&#x27;},
+             &#x27;depositpaid&#x27;: True,
+             &#x27;firstname&#x27;: &#x27;Vinny&#x27;,
+             &#x27;lastname&#x27;: &#x27;Wohler&#x27;,
+             &#x27;totalprice&#x27;: 1182},
+ &#x27;bookingid&#x27;: 1569}
+Item# 3 added  -&gt;  {&quot;firstname&quot;: &quot;Korella&quot;, &quot;lastname&quot;: &quot;Strangwood&quot;, &quot;totalprice&quot;: 8168, &quot;depositpaid&quot;: false, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-02-28&quot;, &quot;checkout&quot;: &quot;2023-08-31&quot;}, &quot;additionalneeds&quot;: &quot;dinner&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;dinner&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-02-28&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-08-31&#x27;},
+             &#x27;depositpaid&#x27;: False,
+             &#x27;firstname&#x27;: &#x27;Korella&#x27;,
+             &#x27;lastname&#x27;: &#x27;Strangwood&#x27;,
+             &#x27;totalprice&#x27;: 8168},
+ &#x27;bookingid&#x27;: 1578}
+Item# 4 added  -&gt;  {&quot;firstname&quot;: &quot;Lane&quot;, &quot;lastname&quot;: &quot;Burkett&quot;, &quot;totalprice&quot;: 3640, &quot;depositpaid&quot;: true, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-02-21&quot;, &quot;checkout&quot;: &quot;2023-08-16&quot;}, &quot;additionalneeds&quot;: &quot;breakfast&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;breakfast&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-02-21&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-08-16&#x27;},
+             &#x27;depositpaid&#x27;: True,
+             &#x27;firstname&#x27;: &#x27;Lane&#x27;,
+             &#x27;lastname&#x27;: &#x27;Burkett&#x27;,
+             &#x27;totalprice&#x27;: 3640},
+ &#x27;bookingid&#x27;: 1587}
+Item# 5 added  -&gt;  {&quot;firstname&quot;: &quot;Sallyann&quot;, &quot;lastname&quot;: &quot;Lenton&quot;, &quot;totalprice&quot;: 8679, &quot;depositpaid&quot;: true, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-03-06&quot;, &quot;checkout&quot;: &quot;2023-11-20&quot;}, &quot;additionalneeds&quot;: &quot;breakfast&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;breakfast&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-03-06&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-11-20&#x27;},
+             &#x27;depositpaid&#x27;: True,
+             &#x27;firstname&#x27;: &#x27;Sallyann&#x27;,
+             &#x27;lastname&#x27;: &#x27;Lenton&#x27;,
+             &#x27;totalprice&#x27;: 8679},
+ &#x27;bookingid&#x27;: 1597}
+Item# 6 added  -&gt;  {&quot;firstname&quot;: &quot;Barbee&quot;, &quot;lastname&quot;: &quot;Mourge&quot;, &quot;totalprice&quot;: 7127, &quot;depositpaid&quot;: true, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-01-07&quot;, &quot;checkout&quot;: &quot;2023-11-16&quot;}, &quot;additionalneeds&quot;: &quot;breakfast&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;breakfast&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-01-07&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-11-16&#x27;},
+             &#x27;depositpaid&#x27;: True,
+             &#x27;firstname&#x27;: &#x27;Barbee&#x27;,
+             &#x27;lastname&#x27;: &#x27;Mourge&#x27;,
+             &#x27;totalprice&#x27;: 7127},
+ &#x27;bookingid&#x27;: 1606}
+Item# 7 added  -&gt;  {&quot;firstname&quot;: &quot;Jay&quot;, &quot;lastname&quot;: &quot;Oakwell&quot;, &quot;totalprice&quot;: 4336, &quot;depositpaid&quot;: true, &quot;bookingdates&quot;: {&quot;checkin&quot;: &quot;2023-03-14&quot;, &quot;checkout&quot;: &quot;2023-08-23&quot;}, &quot;additionalneeds&quot;: &quot;breakfast&quot;}
+200
+{&#x27;booking&#x27;: {&#x27;additionalneeds&#x27;: &#x27;breakfast&#x27;,
+             &#x27;bookingdates&#x27;: {&#x27;checkin&#x27;: &#x27;2023-03-14&#x27;,
+                              &#x27;checkout&#x27;: &#x27;2023-08-23&#x27;},
+             &#x27;depositpaid&#x27;: True,
+             &#x27;firstname&#x27;: &#x27;Jay&#x27;,
+             &#x27;lastname&#x27;: &#x27;Oakwell&#x27;,
+             &#x27;totalprice&#x27;: 4336},
+ &#x27;bookingid&#x27;: 1617}
+<br/></div></td></tr></tbody></table></body></html>
